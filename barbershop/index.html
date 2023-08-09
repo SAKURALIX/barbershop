@@ -64,30 +64,62 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Новости</h2>
-            <ul>
-                <li>
-                    <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
-                    <time datetime="2020-01-11">11 января</time> 
+        <section class="services">
+            <h2 class="services-title">Популярные услуги</h2>
+            <ul class="services-list">
+                <li class="services-item">
+                    <span class="services-name">Стрижка машинкой</span>
+                    <b class="services-price">800 ₽</b>
                 </li>
-                <li>
-                    <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
-                    <time datetime="2020-01-18">18 января</time> 
+                <li class="services-item">
+                    <span class="services-name">Стрижка усов</span>
+                    <b class="services-price">1200 ₽</b>
+                </li>
+                <li class="services-item">
+                    <span class="services-name">Груминг</span>
+                    <b class="services-price">400 ₽</b>
+                </li>
+                <li class="services-item">
+                    <span class="services-name">Комплексная стрижка</span>
+                    <b class="services-price">2300 ₽</b>
                 </li>
             </ul>
-            <a href="blank.html">Все новости</a>
+            <a class="button button-all" href="#">Посмотреть все</a>
         </section>
 
-        <section>
-            <h2>Фотогалерея</h2>
-            <figure>
-                <a href="#">
-                    <img src="img/studio.jpg" width="286" height="164" alt="Интерьер">
-                </a>
-            </figure>
-            <button type="button" disabled>Назад</button>
-            <button type="button">Вперед</button>
+        <section class="gallery">
+            <h2 class="gallery-title">Фотогалерея</h2>
+            <img class="slider-image" src="img/studio.jpg" alt="Примеры работ">
+            <button class="slider-button slider-prev" type="button">
+                <span class="visually-hidden">Предыдущее фото</span>
+            </button>
+            <button class="slider-button slider-next" type="button">
+                <span class="visually-hidden">Следующее фото</span>
+            </button>
+
+            <ol class="slider-pagination">
+                <li class="slider-pagination-item">
+                    <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                        <span class="visually-hidden">1 фото</span>
+                    </button>
+                </li>
+                <li class="slider-pagination-item">
+                    <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                        <span class="visually-hidden">2 фото</span>
+                    </button>
+                </li>
+                <li class="slider-pagination-item">
+                    <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                        <span class="visually-hidden">3 фото</span>
+                    </button>
+                </li>
+                <li class="slider-pagination-item">
+                    <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                        <span class="visually-hidden">4 фото</span>
+                    </button>
+                </li>
+
+            </ol>
         </section>
 
         <section>
