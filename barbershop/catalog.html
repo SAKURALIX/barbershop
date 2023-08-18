@@ -129,15 +129,51 @@
 
                 <fieldset class="catalog-filter-group">
                     <legend class="catalog-filter-title">Группы товаров</legend>
+                    <ul class="catalog-filter-list">
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="visually-hidden control-input" type="radio" name="product-group" value="shaving-supplies">
+                                <span class="control-mark"></span>
+                        <span class="control-label">Бритвенные принадлежности</span>
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="visually-hidden control-input" type="radio" name="product-group" value="care-products" checked>
+                                <span class="control-mark"></span>
+                        <span class="control-label">Средства для ухода</span>
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="visually-hidden control-input" type="radio" name="product-group" value="accessories">
+                                <span class="control-mark"></span>
+                        <span class="control-label">Аксессуары</span>
+                            </label>
+                        </li>
+                    </ul>
                 </fieldset>
 
                 <button class="button" type="submit">Показать</button>
             </form>
 
+            <form class="sorting-type">
+                <label class="visually-hidden" for="sorting">Сортировка</label>
+                <select class="select-control" id="sorting" name="sorting">
+                    <option value="popular">Сначала популярное</option>
+                    <option value="cheap">Сначала дешёвое</option>
+                    <option value="expensive">Сначала дорогое</option>
+                </select>
+                <button class="visually-hidden" type="submit">Отсортировать продукты</button>
+            </form>
+            <a href="#" class="button button-light">
+                <span class="visually-hidden">Показать список</span>
+            </a>
+            <a href="#" class="button">
+                <span class="visually-hidden">Показать карточки</span>
+            </a>
+
         </section>
-
-
-
     </main>
 
 
