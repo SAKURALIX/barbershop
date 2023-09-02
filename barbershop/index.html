@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Барбершоп «Бородинский»</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -44,7 +45,7 @@
     </header>
     <main class="main-index">
         <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
-        <img class="logo" src="img/index-logo.svg" width="368" height="153" alt="Логотип Барбершопа «Бородинский»">
+        <img class="logo" src="images/logo-full.svg" width="367" height="152" alt="Логотип Барбершопа «Бородинский»">
 
         <section class="advantages">
             <h2 class="visually-hidden">Преимущества</h2>
@@ -64,63 +65,68 @@
             </ul>
         </section>
 
-        <section class="services">
-            <h2 class="services-title">Популярные услуги</h2>
-            <ul class="services-list">
-                <li class="services-item">
-                    <span class="services-name">Стрижка машинкой</span>
-                    <b class="services-price">800 ₽</b>
-                </li>
-                <li class="services-item">
-                    <span class="services-name">Стрижка усов</span>
-                    <b class="services-price">1200 ₽</b>
-                </li>
-                <li class="services-item">
-                    <span class="services-name">Груминг</span>
-                    <b class="services-price">400 ₽</b>
-                </li>
-                <li class="services-item">
-                    <span class="services-name">Комплексная стрижка</span>
-                    <b class="services-price">2300 ₽</b>
-                </li>
-            </ul>
-            <a class="button button-all" href="#">Посмотреть все</a>
-        </section>
+        <div class="index-columns">
 
-        <section class="gallery">
-            <h2 class="gallery-title">Фотогалерея</h2>
-            <img class="slider-image" src="img/studio.jpg" alt="Примеры работ">
-            <button class="slider-button slider-prev" type="button">
-                <span class="visually-hidden">Предыдущее фото</span>
-            </button>
-            <button class="slider-button slider-next" type="button">
-                <span class="visually-hidden">Следующее фото</span>
-            </button>
-
-            <ol class="slider-pagination">
-                <li class="slider-pagination-item">
-                    <button class="slider-pagination-button slider-pagination-button-current" type="button">
-                        <span class="visually-hidden">1 фото</span>
-                    </button>
-                </li>
-                <li class="slider-pagination-item">
-                    <button class="slider-pagination-button slider-pagination-button-current" type="button">
-                        <span class="visually-hidden">2 фото</span>
-                    </button>
-                </li>
-                <li class="slider-pagination-item">
-                    <button class="slider-pagination-button slider-pagination-button-current" type="button">
-                        <span class="visually-hidden">3 фото</span>
-                    </button>
-                </li>
-                <li class="slider-pagination-item">
-                    <button class="slider-pagination-button slider-pagination-button-current" type="button">
-                        <span class="visually-hidden">4 фото</span>
-                    </button>
-                </li>
-
-            </ol>
-        </section>
+            <!-- Популярные услуги -->
+            <section class="services">
+                <h2 class="services-title">Популярные услуги</h2>
+                <ul class="services-list">
+                    <li class="services-item">
+                        <span class="services-name">Стрижка машинкой</span>
+                        <b class="services-price">800 ₽</b>
+                    </li>
+                    <li class="services-item">
+                        <span class="services-name">Стрижка усов</span>
+                        <b class="services-price">1200 ₽</b>
+                    </li>
+                    <li class="services-item">
+                        <span class="services-name">Груминг</span>
+                        <b class="services-price">400 ₽</b>
+                    </li>
+                    <li class="services-item">
+                        <span class="services-name">Комплексная стрижка</span>
+                        <b class="services-price">2300 ₽</b>
+                    </li>
+                </ul>
+                <a class="button button-all" href="#">Посмотреть все</a>
+            </section>
+    
+            <!-- Фотогалерея -->
+            <section class="gallery">
+                <h2 class="gallery-title">Фотогалерея</h2>
+                <img class="slider-image" src="images/gallery-1.jpg" alt="Примеры работ">
+                <button class="slider-button slider-prev" type="button">
+                    <span class="visually-hidden">Предыдущее фото</span>
+                </button>
+                <button class="slider-button slider-next" type="button">
+                    <span class="visually-hidden">Следующее фото</span>
+                </button>
+    
+                <ol class="slider-pagination">
+                    <li class="slider-pagination-item">
+                        <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                            <span class="visually-hidden">1 фото</span>
+                        </button>
+                    </li>
+                    <li class="slider-pagination-item">
+                        <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                            <span class="visually-hidden">2 фото</span>
+                        </button>
+                    </li>
+                    <li class="slider-pagination-item">
+                        <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                            <span class="visually-hidden">3 фото</span>
+                        </button>
+                    </li>
+                    <li class="slider-pagination-item">
+                        <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                            <span class="visually-hidden">4 фото</span>
+                        </button>
+                    </li>
+    
+                </ol>
+            </section>
+        </div>
 
         <section class="contacts">
             <h2 class="contacts-title">Контакты</h2>
@@ -186,7 +192,7 @@
     <footer class="page-footer">
         <section class="footer-contacts">
             <h2 class="visually-hidden">Контакты</h2>
-            <img class="footer-contacts-logo" src="" alt="Логотип Барбершоп «Бородинский»">
+            <img class="footer-contacts-logo" src="images/logo-footer.svg" alt="Логотип Барбершоп «Бородинский»" width="187" height="24">
             <address class="footer-contacts-address">
                 <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
                 <a class="footer-contacts-address-phone" href="tel:88005558628">8 800 555-86-28</a>
