@@ -58,6 +58,13 @@ body {
     text-transform: uppercase;
 }
 
+
+/* Light */
+.button-light {
+    color: #242424;
+    background-color: #FFFFFF;
+}
+
 /* Pages */
 
 .page-header {
@@ -82,6 +89,12 @@ body {
     background-image: url("/barbershop/images/index-bg.jpg");
       background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.main-inner {
+    color: #242424;
+    background-color: #FBF7F4;
+    background-image: url("/barbershop/images/bg-noisy.png");
 }
 
 /* List */
@@ -242,4 +255,85 @@ body {
     color: #FFFFFF;
     text-decoration: underline;
     text-transform: uppercase;
+}
+/* Дополнительные стили для страницы Каталог */
+.inner-header-title {
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+/* Breadcrumbs */
+.breadcrumbs {
+    color: #242424;
+}
+
+/* Link */
+.breadcrumbs-link {
+    color: inherit;
+}
+
+/* Title */
+.catalog-filter-title {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #242424;
+    text-transform: uppercase;
+}
+
+/* Label */
+.control-label {
+    font-weight: 700;
+}
+
+.sorting-container {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+/* Item */
+.product-card {
+    background-color: #FFFFFF;
+}
+
+/* Link */
+.product-card-link {
+    text-decoration: none;
+}
+
+/* Title */
+.product-card-title {
+    font-weight: 700;
+    color: #242424;
+}
+
+/* Price */
+.product-card-price {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #814B18;
+    text-transform: uppercase;
+}
+
+/* Link */
+.pagination {
+    background-color: #FFFFFF;
+}
+
+.pagination-link {
+    color: #FFFFFF;
+    background-color: #000000;
+    text-decoration: none;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.pagination-current {
+    color: #242424;
+    background-color: #FFFFFF;
+}
+
+.pagination-disabled {
+    background-color: #595959;
 }
